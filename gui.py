@@ -128,7 +128,7 @@ def stop_camera():
     camera_button["command"] = start_camera
     resp = tmsg.askquestion('Warning','Do you want to close the application ?')
     if resp=='yes':
-        quit()
+        root.quit()
     else:
         pass
 
